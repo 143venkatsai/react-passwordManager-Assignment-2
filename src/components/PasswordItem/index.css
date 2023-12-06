@@ -1,0 +1,122 @@
+.list-element {
+  list-style-type: none;
+  border: 1px solid #9ba9eb;
+  width: 32%;
+  padding: 15px 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6px;
+  margin-right: 12px;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.first-name {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #f8fafc;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  pad: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.blue {
+  background-color: #f59e0b;
+}
+
+.white {
+  background-color: #10b981;
+}
+
+.black {
+  background-color: #f97316;
+}
+
+.green {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.yellow {
+  background-color: #64748b;
+}
+
+.warning {
+  background-color: #0ea5e9;
+}
+
+.detail-container {
+  margin-left: 10px;
+}
+
+.url {
+  margin-bottom: 4px;
+  margin-top: 4px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #f8fafc;
+}
+
+.name {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #f8fafc;
+}
+
+.password-detail {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #f8fafc;
+  margin-top: 0px;
+}
+
+.stars-img {
+  width: 70%;
+  margin-top: 0px;
+}
+
+.delete-container {
+  margin-right: -5%;
+}
+.delete-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.delete-img {
+  height: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .list-element {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .delete-img {
+    height: 25px;
+  }
+  .url {
+    font-size: 16px;
+  }
+  .name {
+    font-size: 16px;
+  }
+}
